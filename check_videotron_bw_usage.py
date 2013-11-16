@@ -46,7 +46,7 @@ def get_script_args():
 
     required_opts.add_argument('-a', '--account',
                                action='store',
-                               default='',  # vlKIEHTP
+                               default='',
                                dest='videotron_account',
                                required=True,
                                help="your videotron ligne account")
