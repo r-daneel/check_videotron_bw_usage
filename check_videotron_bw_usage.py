@@ -10,11 +10,11 @@ STATE = {'OK': 0,
          'DEPENDENT': 4}
 
 try:
-    from BeautifulSoup import BeautifulSoup
-    import requests
     import sys
     import logging
     import argparse
+    import requests
+    from BeautifulSoup import BeautifulSoup
 except ImportError as e:
     print "could not load all required modules, please verify: {0}".format(str(e))
     sys.exit(STATE['UNKNOWN'])
